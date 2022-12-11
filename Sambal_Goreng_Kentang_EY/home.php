@@ -1,8 +1,5 @@
-<div class="col-lg-9 mt-2">
+<div class="col">
     <div class="card">
-        <div class="card-header">
-            Home
-        </div>
         <div class="card-body">
             <h5 class="card-title">Sambal Goreng Kentang EY</h5>
             <p class="card-text">Untuk Takaran Produknya sendiri hanya tersedia seperti yang sudah tercantum pada gambar berikut.</p>

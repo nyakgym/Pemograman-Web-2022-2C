@@ -1,0 +1,22 @@
+/*J*/
+.jumbotron {
+	background-image: url(../img/banner.jpg);
+	background-size: large;
+	height: 350px;
+	width: 100%;
+	color: black;
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: black;
+	width: 400px;
+	border-width: 3px;
+}

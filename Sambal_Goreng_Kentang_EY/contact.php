@@ -14,7 +14,7 @@
 					<p>085213274334</p> 
                     <p>08126959694</p>
 		</div>
-            <a href="#" class="btn btn-warning"><i class="bi bi-person-lines-fill"></i> Contact Now</a>
+            <a href="https://whatsapp.com/" class="btn btn-warning"><i class="bi bi-person-lines-fill"></i> Contact Now</a>
         </div>
     </div>
 </div>
