@@ -26,7 +26,7 @@ $hasil = mysqli_fetch_array($query);
     <?php include "header.php"; ?>
     <!--End Header-->
 
-    <div class="container-lg">
+    <div class="container-fluid">
         <div class="row">
         <section class="banner">
 		<h2>SAMBAL GORENG KENTANG EY</h2>
@@ -60,7 +60,7 @@ $hasil = mysqli_fetch_array($query);
         </section>
             <!---Sidebar-->
             <?php
-            //include "sidebar.php";
+            include "sidebar.php";
             ?>
             <!--End Sidebar-->
 
@@ -75,7 +75,7 @@ $hasil = mysqli_fetch_array($query);
 
     <!-- Awal Footer -->
     <hr class="footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row footer-body">
           <div class="col-md-6">
           <div class="copyright">

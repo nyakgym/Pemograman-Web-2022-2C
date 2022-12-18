@@ -1,4 +1,4 @@
-<div class="col">
+<div class="col mt-2">
     <div class="card">
         <div class="card-header">
             Report
@@ -53,10 +53,10 @@
                 </div>
             </div>
             <!-- Akhir modal tambah user baru -->
-            <div class="card-body">
+    </div>
+    <div class="card-body">
             <h5 class="card-title">Report Penjualan November 2022</h5>
             <p class="card-text">Penjualan Bulan November</p>
             <a href="#" class="btn btn-warning">Go somewhere</a>
         </div>
-    </div>
 </div>

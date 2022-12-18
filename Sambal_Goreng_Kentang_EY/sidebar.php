@@ -20,13 +20,14 @@
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='contact')?'active link-light bg-warning' : 'link-dark'; ?>" href="contact"><i class="bi bi-person-fill"></i> Contact</a>
                         </li>
+                        <?php if($hasil['level']==1){ ?>
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='user')?'active link-light bg-warning' : 'link-dark'; ?>" href="user"><i class="bi bi-table"></i> User</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='report')?'active link-light bg-warning' : 'link-dark'; ?>" href="report"><i class="bi bi-clipboard2-fill"></i> Report</a>
                         </li>
-                        <?php  ?>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>

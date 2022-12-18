@@ -1,6 +1,6 @@
 <link href="assets/css/header.css" rel="stylesheet">
 <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-    <div class="container-lg ">
+    <div class="container-fluid ">
         <a class="navbar-brand text-dark" href="."><img src="img/148762.png" width="40" height="40"> SAMBAL GORENG KENTANG EY  </a>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -14,12 +14,14 @@
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='contact')?'active link-light' : 'link-dark'; ?>" href="contact"><i class="bi bi-person-fill"></i> Contact</a>
                         </li>
+                        <?php if($hasil['level']==1){ ?>
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='user')?'active link-light' : 'link-dark'; ?>" href="user"><i class="bi bi-table"></i> User</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='report')?'active link-light' : 'link-dark'; ?>" href="report"><i class="bi bi-clipboard2-fill"></i> Report</a>
                         </li>
+                        <?php } ?>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">

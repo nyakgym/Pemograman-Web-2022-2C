@@ -13,11 +13,21 @@
             $page = "contact.php";
             include "main.php";
         }else if (isset ($_GET['x']) && $_GET['x']=='user'){
-            $page = "user.php";
-            include "main.php";
+            if($_SESSION['level_project']==1){
+                $page = "user.php";
+                include "main.php";
+            }else{
+                $page = "home.php";
+                include "main.php";
+            }
         }else if (isset ($_GET['x']) && $_GET['x']=='report'){
-            $page = "report.php";
-            include "main.php";                
+            if($_SESSION['level_project']==1){
+                $page = "report.php";
+                include "main.php";
+            }else{
+                $page = "home.php";
+                include "main.php";
+            }
     
     }else if (isset ($_GET['x']) && $_GET['x']=='login'){
         include "login.php";

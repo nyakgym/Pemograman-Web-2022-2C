@@ -6,7 +6,7 @@ while ($record = mysqli_fetch_array($query)) {
 }
 ?>
 
-<div class="col">
+<div class="col mt-2">
     <div class="card">
         <div class="card-body">
             <div class="row">
@@ -86,8 +86,7 @@ while ($record = mysqli_fetch_array($query)) {
                                 </div>
 
                                 <div class="form-floating">
-                                    <textarea class="form-control" id="" style="height: 100px;"
-                                        name="alamat"></textarea>
+                                    <textarea class="form-control" id="" style="height: 100px;" name="alamat"></textarea>
                                     <label for="floatingInput">Alamat</label>
                                 </div>
 
